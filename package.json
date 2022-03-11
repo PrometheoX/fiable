@@ -1,0 +1,16 @@
+{
+  "name": "fiable_licitaciones",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "description": "Smart contract para crear y listar licitaciones",
+  "main": "index.js",
+  "scripts": {
+    "test": "asp",
+    "build": "asb",
+    "deploy": "yarn build && near dev-deploy"
+  },
+  
+  "devDependencies": {
+    "near-sdk-as": "^3.2.3"
+  }
+}
