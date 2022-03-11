@@ -155,7 +155,7 @@ This is a explanation of the smart contract file system
 
 ==============================================
 
-Aquí dejamos una propuesta de diseño [UX/UI] para desarrollar la parte frontend del proyecto comunitario. 
+Aquí dejamos una propuesta de diseño [Ui] para desarrollar la parte frontend del proyecto comunitario. 
 
 
   [create-near-app]: https://github.com/near/create-near-app
@@ -165,5 +165,4 @@ Aquí dejamos una propuesta de diseño [UX/UI] para desarrollar la parte fronten
   [near-cli]: https://github.com/near/near-cli
   [NEAR test account]: https://docs.near.org/docs/develop/basics/create-account#creating-a-testnet-account
   [nvm]: https://github.com/nvm-sh/nvm
-  [UX/UI]: https://www.figma.com/proto/0dZLC0WI1eVsfjeKu3T8J8/Garant%C3%ADzame?node-id=2%3A8&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=2%3A8
-
+  [UX/UI]: https://drive.google.com/file/d/16U1ximx14-tZGFPKoo_sY0NfUVVrzYX8/view?usp=sharing
