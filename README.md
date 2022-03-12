@@ -165,4 +165,4 @@ Aquí dejamos una propuesta de diseño [Ui] para desarrollar la parte frontend d
   [near-cli]: https://github.com/near/near-cli
   [NEAR test account]: https://docs.near.org/docs/develop/basics/create-account#creating-a-testnet-account
   [nvm]: https://github.com/nvm-sh/nvm
-  [UX/UI]: https://drive.google.com/file/d/16U1ximx14-tZGFPKoo_sY0NfUVVrzYX8/view?usp=sharing
+  [UI]: https://drive.google.com/file/d/16U1ximx14-tZGFPKoo_sY0NfUVVrzYX8/view?usp=sharing
