@@ -164,7 +164,7 @@ This is a explanation of the smart contract file system
 
 ==============================================
 
-[Propuesta de diseño]  Este mockup es una presentación con las diferentes pantallas de la app, para avanzar puede utilizar las flechas del teclado o hacer click en el slide.
+[Propuesta de diseño]  Este mockup es una presentación con las diferentes pantallas de la app, para avanzar puede utilizar las flechas del teclado, hacer click en el slide o esperar 5 segundos a que avance automáticamente.
 
 
   [create-near-app]: https://github.com/near/create-near-app
