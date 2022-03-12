@@ -73,10 +73,9 @@ Antes de ejecutar el comando brindado, modifica <your deployed contract> por el 
 
 Para Linux:
 ```bash
-near call <your deployed contract> CrearLicitación '{"title":"string","razón_social":"string","descripción":"string","presupuesto_max":<number>,"anticipo":<number>,"fecha_cierre":"string"}' --account-id <username>.testnet
+near call <your deployed contract> CrearLicitación '{"título":"string","razón_social":"string","descripción":"string","presupuesto_max":<number>,"anticipo":<number>,"fecha_cierre":"string"}' --account-id <username>.testnet
 ```
 
-```
 ✏️ Comando que LISTA todas las LICITACIONES:
 --------------------------------------------
 Permite listar las licitaciones que existen en nuestro contrato inteligente. 
@@ -104,7 +103,20 @@ Para Linux:
 near call <your deployed contract> BorrarLicitación '{"id":1}' --account-id <username>.testnet
 ``` 
 
+✏️ Comando para POSTULAR una COTIZACIÓN
+-----------------------------------------------
+Permite postular una cotización a una licitación especificando el id de esta.
 
+Para Linux:
+```bash
+near call <your deployed contract> PostularCotización '{"razón_social":"string","licitación_destino":<id de la licitación>,"precio_ofertado":<number>,"anticipo":<number>}' --account-id <username>.testnet
+```
+
+✏️ Comando que LISTA todas las COTIZACIONES:
+--------------------------------------------
+Esta función se encuentra actualmente bajo desarrollo.
+
+ 
 
 
 🤖 Test 
@@ -118,9 +130,6 @@ Las pruebas son parte del desarrollo, para ejecutar las pruebas en el contrato i
 Esto ejecutará los métodos de prueba en el `assembly/__tests__/example.spec.js` archivo
 
 
-```bash
-near call <your deployed contract> hello --account-id <username>.testnet
-```
 
 
 👩🏼‍🏫 Exploring and Explaining The Code 
@@ -155,7 +164,7 @@ This is a explanation of the smart contract file system
 
 ==============================================
 
-Aquí dejamos una propuesta de diseño [Ui] para desarrollar la parte frontend del proyecto comunitario. 
+[Propuesta de diseño]  Este mockup es una presentación con las diferentes pantallas de la app, para avanzar puede utilizar las flechas del teclado o hacer click en el slide.
 
 
   [create-near-app]: https://github.com/near/create-near-app
@@ -165,4 +174,5 @@ Aquí dejamos una propuesta de diseño [Ui] para desarrollar la parte frontend d
   [near-cli]: https://github.com/near/near-cli
   [NEAR test account]: https://docs.near.org/docs/develop/basics/create-account#creating-a-testnet-account
   [nvm]: https://github.com/nvm-sh/nvm
-  [UI]: https://drive.google.com/file/d/16U1ximx14-tZGFPKoo_sY0NfUVVrzYX8/view?usp=sharing
+  [Propuesta de diseño]: https://docs.google.com/presentation/d/e/2PACX-1vQo6i_5OxctyPXELi8aB6vI_PuFWW2hVWgI8M-b0ueAlzV01v1vJUXhcnLFWMFyVFWAjeGJWtWfxpDX/pub?start=true&loop=false&delayms=5000
+
